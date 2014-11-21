@@ -22,3 +22,28 @@ STANDING, LAYING.
 "fBodyBodyGyroJerkMag-mean()" "fBodyBodyGyroJerkMag-std()" "fBodyBodyGyroJerkMag-meanFreq()" - each of these columns contain 
 average values of given values for a specified Activity label and subject
 
+To clean up the data the following transformations have been performed:
+1 All needed data were loaded into R, in particular: 
+activity labels
+features that were used as column names
+X_test
+y_test
+subject_test
+X_train
+y_train 
+subject_train
+
+2 Activity id and subject id were added to X_test
+and X_train data sets
+
+3 The data sets were labeled with variable names
+ 
+4 Test and Train data sets were merged into X_all variable
+
+5 Extract measurements on the mean and standard deviation
+
+6 Name the activities that gives tidy data set
+
+7 From the data set in step 6, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+8 Write data set from step 7 into tidy_data.txt file
